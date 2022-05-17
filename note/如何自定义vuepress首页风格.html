@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>如何自定义vuepress首页风格 | 云上舟</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="个人学习博客">
+    
+    <link rel="preload" href="/js-book/assets/css/0.styles.f74071da.css" as="style"><link rel="preload" href="/js-book/assets/js/app.f1e470e0.js" as="script"><link rel="preload" href="/js-book/assets/js/2.19c529df.js" as="script"><link rel="preload" href="/js-book/assets/js/3.1cd9d216.js" as="script"><link rel="preload" href="/js-book/assets/js/85.ab2a5b03.js" as="script"><link rel="prefetch" href="/js-book/assets/js/10.3672412e.js"><link rel="prefetch" href="/js-book/assets/js/11.ac0d0e7b.js"><link rel="prefetch" href="/js-book/assets/js/12.0d01a603.js"><link rel="prefetch" href="/js-book/assets/js/13.a6ca0e02.js"><link rel="prefetch" href="/js-book/assets/js/14.57bd33fe.js"><link rel="prefetch" href="/js-book/assets/js/15.c06633f7.js"><link rel="prefetch" href="/js-book/assets/js/16.9396edfa.js"><link rel="prefetch" href="/js-book/assets/js/17.df063571.js"><link rel="prefetch" href="/js-book/assets/js/18.3573eafd.js"><link rel="prefetch" href="/js-book/assets/js/19.c13cd615.js"><link rel="prefetch" href="/js-book/assets/js/20.e1f8f25c.js"><link rel="prefetch" href="/js-book/assets/js/21.71c284ea.js"><link rel="prefetch" href="/js-book/assets/js/22.687b4f7c.js"><link rel="prefetch" href="/js-book/assets/js/23.43f41c68.js"><link rel="prefetch" href="/js-book/assets/js/24.c9ac3edf.js"><link rel="prefetch" href="/js-book/assets/js/25.662cb850.js"><link rel="prefetch" href="/js-book/assets/js/26.5d5bfafc.js"><link rel="prefetch" href="/js-book/assets/js/27.8771c3b6.js"><link rel="prefetch" href="/js-book/assets/js/28.8b6e80ed.js"><link rel="prefetch" href="/js-book/assets/js/29.47139245.js"><link rel="prefetch" href="/js-book/assets/js/30.b3d79f98.js"><link rel="prefetch" href="/js-book/assets/js/31.924b30df.js"><link rel="prefetch" href="/js-book/assets/js/32.81433e6a.js"><link rel="prefetch" href="/js-book/assets/js/33.83ce42d7.js"><link rel="prefetch" href="/js-book/assets/js/34.ab9a7a7f.js"><link rel="prefetch" href="/js-book/assets/js/35.38e4d67a.js"><link rel="prefetch" href="/js-book/assets/js/36.976b1e1d.js"><link rel="prefetch" href="/js-book/assets/js/37.e8e8174c.js"><link rel="prefetch" href="/js-book/assets/js/38.fd111146.js"><link rel="prefetch" href="/js-book/assets/js/39.ec3ae742.js"><link rel="prefetch" href="/js-book/assets/js/4.609cbf11.js"><link rel="prefetch" href="/js-book/assets/js/40.ef4fceb4.js"><link rel="prefetch" href="/js-book/assets/js/41.71cea40b.js"><link rel="prefetch" href="/js-book/assets/js/42.cbef2c9a.js"><link rel="prefetch" href="/js-book/assets/js/43.d4448ac0.js"><link rel="prefetch" href="/js-book/assets/js/44.628f39bd.js"><link rel="prefetch" href="/js-book/assets/js/45.9bff7b8b.js"><link rel="prefetch" href="/js-book/assets/js/46.fcd6bef0.js"><link rel="prefetch" href="/js-book/assets/js/47.1a238f1b.js"><link rel="prefetch" href="/js-book/assets/js/48.fa125148.js"><link rel="prefetch" href="/js-book/assets/js/49.04a488e0.js"><link rel="prefetch" href="/js-book/assets/js/5.8c578ce8.js"><link rel="prefetch" href="/js-book/assets/js/50.49a4d92d.js"><link rel="prefetch" href="/js-book/assets/js/51.1cd51764.js"><link rel="prefetch" href="/js-book/assets/js/52.a32e10cb.js"><link rel="prefetch" href="/js-book/assets/js/53.e240a8a5.js"><link rel="prefetch" href="/js-book/assets/js/54.ff12ba5d.js"><link rel="prefetch" href="/js-book/assets/js/55.520a7ff3.js"><link rel="prefetch" href="/js-book/assets/js/56.a6dfd5b2.js"><link rel="prefetch" href="/js-book/assets/js/57.5bf715c7.js"><link rel="prefetch" href="/js-book/assets/js/58.fcf1c423.js"><link rel="prefetch" href="/js-book/assets/js/59.c71576d1.js"><link rel="prefetch" href="/js-book/assets/js/6.e64e2650.js"><link rel="prefetch" href="/js-book/assets/js/60.a3632d30.js"><link rel="prefetch" href="/js-book/assets/js/61.0632ab51.js"><link rel="prefetch" href="/js-book/assets/js/62.93d658a5.js"><link rel="prefetch" href="/js-book/assets/js/63.265cbfad.js"><link rel="prefetch" href="/js-book/assets/js/64.5f4ba30a.js"><link rel="prefetch" href="/js-book/assets/js/65.e6899d22.js"><link rel="prefetch" href="/js-book/assets/js/66.ef835d8c.js"><link rel="prefetch" href="/js-book/assets/js/67.32881653.js"><link rel="prefetch" href="/js-book/assets/js/68.eae732b2.js"><link rel="prefetch" href="/js-book/assets/js/69.dba7e694.js"><link rel="prefetch" href="/js-book/assets/js/7.0f5c8d22.js"><link rel="prefetch" href="/js-book/assets/js/70.181d3ad3.js"><link rel="prefetch" href="/js-book/assets/js/71.10cd5363.js"><link rel="prefetch" href="/js-book/assets/js/72.0fedbac2.js"><link rel="prefetch" href="/js-book/assets/js/73.e685f3b5.js"><link rel="prefetch" href="/js-book/assets/js/74.0ef08095.js"><link rel="prefetch" href="/js-book/assets/js/75.04e52ac2.js"><link rel="prefetch" href="/js-book/assets/js/76.cd9e155a.js"><link rel="prefetch" href="/js-book/assets/js/77.72e01ebc.js"><link rel="prefetch" href="/js-book/assets/js/78.b7a6b0ac.js"><link rel="prefetch" href="/js-book/assets/js/79.35b6dcce.js"><link rel="prefetch" href="/js-book/assets/js/8.d0dfd5c0.js"><link rel="prefetch" href="/js-book/assets/js/80.40832afe.js"><link rel="prefetch" href="/js-book/assets/js/81.a5a7829b.js"><link rel="prefetch" href="/js-book/assets/js/82.f3578128.js"><link rel="prefetch" href="/js-book/assets/js/83.11f952a5.js"><link rel="prefetch" href="/js-book/assets/js/84.4be22441.js"><link rel="prefetch" href="/js-book/assets/js/86.deaecdbd.js"><link rel="prefetch" href="/js-book/assets/js/87.09ef73af.js"><link rel="prefetch" href="/js-book/assets/js/88.ddf2caba.js"><link rel="prefetch" href="/js-book/assets/js/89.33833ab1.js"><link rel="prefetch" href="/js-book/assets/js/9.cd1ed18d.js"><link rel="prefetch" href="/js-book/assets/js/90.b7418594.js"><link rel="prefetch" href="/js-book/assets/js/91.8067fe35.js"><link rel="prefetch" href="/js-book/assets/js/92.59d81a05.js"><link rel="prefetch" href="/js-book/assets/js/93.cf310422.js"><link rel="prefetch" href="/js-book/assets/js/94.1cc7e224.js"><link rel="prefetch" href="/js-book/assets/js/95.6f30caea.js">
+    <link rel="stylesheet" href="/js-book/assets/css/0.styles.f74071da.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/js-book/" class="home-link router-link-active"><!----> <span class="site-name">云上舟</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/js-book/home/home.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他博客" class="dropdown-title"><span class="title">其他博客</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他博客" class="mobile-dropdown-title"><span class="title">其他博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/YunShangZhou" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/js-book/home/home.html" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他博客" class="dropdown-title"><span class="title">其他博客</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他博客" class="mobile-dropdown-title"><span class="title">其他博客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/YunShangZhou" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/js-book/home/home.html" class="sidebar-link">序言</a></li><li><section class="sidebar-group depth-0"><a href="/js-book/book/Memorize" class="sidebar-heading clickable"><span>博客</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/js-book/book/Memorize.html" class="sidebar-link">记忆函数</a></li><li><a href="/js-book/book/事件循环.html" class="sidebar-link">事件循环</a></li><li><a href="/js-book/book/闭包.html" class="sidebar-link">闭包</a></li><li><a href="/js-book/book/柯里化.html" class="sidebar-link">柯里化</a></li><li><a href="/js-book/book/提高代码健壮性.html" class="sidebar-link">提高代码健壮性</a></li><li><a href="/js-book/book/回车url后，页面的变化过程.html" class="sidebar-link">回车url后，页面的变化过程</a></li><li><a href="/js-book/book/手写Promise.html" class="sidebar-link">手写Promise</a></li><li><a href="/js-book/book/Pinia用法.html" class="sidebar-link">Pinia用法</a></li><li><a href="/js-book/book/前端如何处理10万条数据.html" class="sidebar-link">前端如何处理10万条数据</a></li><li><a href="/js-book/book/BFC详解.html" class="sidebar-link">BFC详解</a></li><li><a href="/js-book/book/前端中的跨域.html" class="sidebar-link">前端中的跨域</a></li><li><a href="/js-book/book/JS原型与原型链.html" class="sidebar-link">JS原型与原型链</a></li><li><a href="/js-book/book/new操作符.html" class="sidebar-link">new操作符</a></li><li><a href="/js-book/book/实现bind、apply、call.html" class="sidebar-link">实现bind、apply、call</a></li><li><a href="/js-book/book/彻底了解this.html" class="sidebar-link">彻底了解this</a></li><li><a href="/js-book/book/CI&amp;CD之自动部署.html" class="sidebar-link">CI&amp;CD之自动部署</a></li><li><a href="/js-book/book/typeof及instanceof原理.html" class="sidebar-link">typeof及instanceof原理</a></li><li><a href="/js-book/book/JS继承.html" class="sidebar-link">JS继承</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/note/ES6之变量声明" class="sidebar-heading clickable open"><span>想法/笔记</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/js-book/note/ES6之变量声明.html" class="sidebar-link">ES6之变量声明</a></li><li><a href="/js-book/note/ES6之解构赋值.html" class="sidebar-link">ES6之解构赋值</a></li><li><a href="/js-book/note/typescript巩固.html" class="sidebar-link">typescript巩固</a></li><li><a href="/js-book/note/如何自定义vuepress首页风格.html" class="active sidebar-link">如何自定义vuepress首页风格</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/js-book/note/如何自定义vuepress首页风格.html#一、主题目录" class="sidebar-link">一、主题目录</a></li><li class="sidebar-sub-header"><a href="/js-book/note/如何自定义vuepress首页风格.html#二、配置首页" class="sidebar-link">二、配置首页</a></li><li class="sidebar-sub-header"><a href="/js-book/note/如何自定义vuepress首页风格.html#三、配置readme-md文件" class="sidebar-link">三、配置README.md文件</a></li><li class="sidebar-sub-header"><a href="/js-book/note/如何自定义vuepress首页风格.html#参考文章" class="sidebar-link">参考文章</a></li></ul></li><li><a href="/js-book/note/图片懒加载.html" class="sidebar-link">图片懒加载</a></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/js-book/note/Vue/Vue3基本使用" class="sidebar-heading clickable"><span>Vue</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/js-book/note/Uniapp/uniapp问题记录与解决" class="sidebar-heading clickable"><span>uniapp</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/js-book/note/cloud-ship/组件库的准备工作/添加色彩体系" class="sidebar-heading clickable"><span>ts-react组件库手记</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><a href="/js-book/note/Vite/Vite搭配Vue3全家桶的基本配置" class="sidebar-heading clickable"><span>Vite</span> <span class="arrow right"></span></a> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/dailyapi/手写一个ajax" class="sidebar-heading clickable"><span>手写API(日更)</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/js-book/homework/前言" class="sidebar-heading clickable"><span>日常练习</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="如何自定义vuepress首页风格"><a href="#如何自定义vuepress首页风格" class="header-anchor">#</a> 如何自定义vuepress首页风格</h1> <h2 id="一、主题目录"><a href="#一、主题目录" class="header-anchor">#</a> 一、主题目录</h2> <p>在 <code>node_modules/@vuepress/</code>下，把<code>theme-default</code> 整个目录拷贝到<code>.vuepress</code>下，并重命名为 <code>theme</code>。删除原<code>theme-default</code> 目录文件。</p> <img alt="theme位置图" src="/js-book/theme-default位置图.jpg"> <h2 id="二、配置首页"><a href="#二、配置首页" class="header-anchor">#</a> 二、配置首页</h2> <p>在<code>theme/components/home.vue</code>里，将以下代码复制粘贴</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span>
+    <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>home<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:aria-labelledby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.cloudText !== null ? <span class="token punctuation">'</span>main-title<span class="token punctuation">'</span> : null<span class="token punctuation">&quot;</span></span>
+  <span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>cloud<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span>
+        <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.cloudImage<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">:src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>$withBase(data.cloudImage)<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">:alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.cloudAlt || <span class="token punctuation">'</span>cloud<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token punctuation">&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span>
+        <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.cloudText !== null<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>main-title<span class="token punctuation">&quot;</span></span>
+      <span class="token punctuation">&gt;</span></span>
+        {{ data.cloudText || $title || 'Hello' }}
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span>
+        <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.tagline !== null<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>description<span class="token punctuation">&quot;</span></span>
+      <span class="token punctuation">&gt;</span></span>
+        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span>
+        <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.actionText &amp;&amp; data.actionLink<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>action<span class="token punctuation">&quot;</span></span>
+      <span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NavLink</span>
+          <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>action-button<span class="token punctuation">&quot;</span></span>
+          <span class="token attr-name">:item</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>actionLink<span class="token punctuation">&quot;</span></span>
+        <span class="token punctuation">/&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span>
+      <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.features &amp;&amp; data.features.length<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>features<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span>
+        <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>(feature, index) in data.features<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>index<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>feature<span class="token punctuation">&quot;</span></span>
+      <span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token punctuation">&gt;</span></span>{{ feature.title }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{ feature.details }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">:href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>feature.url<span class="token punctuation">&quot;</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>blank<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>进入项目页<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Content</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>theme-default-content custom<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span>
+      <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>data.footer<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>footer<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">&gt;</span></span>
+      {{ data.footer }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Content</span>
+      <span class="token attr-name">v-else</span>
+      <span class="token attr-name">slot-key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>footer<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>footer<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> NavLink <span class="token keyword">from</span> <span class="token string">'@theme/components/NavLink.vue'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'Home'</span><span class="token punctuation">,</span>
+
+  <span class="token literal-property property">components</span><span class="token operator">:</span> <span class="token punctuation">{</span> NavLink <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">methods</span><span class="token operator">:</span><span class="token punctuation">{</span>
+    <span class="token function">clickToUrl</span><span class="token punctuation">(</span><span class="token parameter">action</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>href <span class="token operator">=</span> action<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">created</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;node modules ______&quot;</span><span class="token punctuation">,</span><span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;node modules ______&quot;</span><span class="token punctuation">,</span><span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">computed</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$page<span class="token punctuation">.</span>frontmatter
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+    <span class="token function">actionLink</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">link</span><span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>actionLink<span class="token punctuation">,</span>
+        <span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>actionText
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>stylus<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+.home
+  padding $navbarHeight 2rem 0
+  max-width $homePageWidth
+  margin 0px auto
+  display block
+  .cloud
+    text-align center
+    img
+      <span class="token property">max-width</span><span class="token punctuation">:</span> 100%
+      max-height 280px
+      display block
+      margin 3rem auto 1.5rem
+    h1
+      font-size 3rem
+    h1<span class="token punctuation">,</span> .description<span class="token punctuation">,</span> .action
+      margin 1.8rem auto
+    .description
+      max-width 35rem
+      font-size 1.6rem
+      line-height 1.3
+      color <span class="token function">lighten</span><span class="token punctuation">(</span>$textColor<span class="token punctuation">,</span> 40%<span class="token punctuation">)</span>
+    .action-button
+      display inline-block
+      font-size 1.2rem
+      color #fff
+      background-color $accentColor
+      padding 0.8rem 1.6rem
+      border-radius 4px
+      transition background-color .1s ease
+      box-sizing border-box
+      border-bottom 1px solid <span class="token function">darken</span><span class="token punctuation">(</span>$accentColor<span class="token punctuation">,</span> 10%<span class="token punctuation">)</span>
+      &amp;<span class="token punctuation">:</span>hover
+        background-color <span class="token function">lighten</span><span class="token punctuation">(</span>$accentColor<span class="token punctuation">,</span> 10%<span class="token punctuation">)</span>
+  .features
+    border-top 1px solid $borderColor
+    padding 1.2rem 0
+    margin-top 2.5rem
+    display flex
+    flex-wrap wrap
+    align-items flex-start
+    align-content stretch
+    justify-content space-between
+  .feature
+    flex-grow 1
+    flex-basis 30%
+    max-width 30%
+    h2
+      font-size 1.4rem
+      font-weight 500
+      border-bottom none
+      padding-bottom 0
+      color <span class="token function">lighten</span><span class="token punctuation">(</span>$textColor<span class="token punctuation">,</span> 10%<span class="token punctuation">)</span>
+    p
+      color <span class="token function">lighten</span><span class="token punctuation">(</span>$textColor<span class="token punctuation">,</span> 25%<span class="token punctuation">)</span>
+  .footer
+    padding 2.5rem
+    border-top 1px solid $borderColor
+    text-align center
+    color <span class="token function">lighten</span><span class="token punctuation">(</span>$textColor<span class="token punctuation">,</span> 25%<span class="token punctuation">)</span>
+
+@media <span class="token punctuation">(</span><span class="token property">max-width</span><span class="token punctuation">:</span> $MQMobile<span class="token punctuation">)</span>
+  .home
+    .features
+      flex-direction column
+    .feature
+      max-width 100%
+      padding 0 2.5rem
+
+@media <span class="token punctuation">(</span><span class="token property">max-width</span><span class="token punctuation">:</span> $MQMobileNarrow<span class="token punctuation">)</span>
+  .home
+    padding-left 1.5rem
+    padding-right 1.5rem
+    .cloud
+      img
+        max-height 210px
+        margin 2rem auto 1.2rem
+      h1
+        font-size 2rem
+      h1<span class="token punctuation">,</span> .description<span class="token punctuation">,</span> .action
+        margin 1.2rem auto
+      .description
+        font-size 1.2rem
+      .action-button
+        font-size 1rem
+        padding 0.6rem 1.2rem
+    .feature
+      h2
+        font-size 1.25rem
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h2 id="三、配置readme-md文件"><a href="#三、配置readme-md文件" class="header-anchor">#</a> 三、配置README.md文件</h2> <p>将以下代码复制粘贴</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token front-matter yaml language-yaml"><span class="token key atrule">home</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">cloudText</span><span class="token punctuation">:</span> 个人博客
+<span class="token key atrule">cloudImage</span><span class="token punctuation">:</span> /logo.jpg
+<span class="token key atrule">tagline</span><span class="token punctuation">:</span> 记录学习，分享知识
+<span class="token key atrule">actionText</span><span class="token punctuation">:</span> 点击进入
+<span class="token key atrule">actionLink</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//yunshangzhou.github.io/js<span class="token punctuation">-</span>book/
+<span class="token key atrule">features</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> ErpStorageSystem 
+    <span class="token key atrule">details</span><span class="token punctuation">:</span> 自开发的vue3+ts+pinia CRUD系统
+    <span class="token key atrule">url</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//www.jiujiuwarehouse.com<span class="token punctuation">:</span><span class="token number">8080</span>
+    <span class="token key atrule">img</span><span class="token punctuation">:</span> /logo.jpg
+  <span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> cloudship 
+    <span class="token key atrule">details</span><span class="token punctuation">:</span> 自开发的ts+react组件库
+    <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//yunshangzhou.github.io/cloud<span class="token punctuation">-</span>ship<span class="token punctuation">-</span>react/sb<span class="token punctuation">-</span>static/index.html
+    <span class="token key atrule">img</span><span class="token punctuation">:</span> /logo.jpg
+<span class="token key atrule">footer</span><span class="token punctuation">:</span> MIT Licensed <span class="token punctuation">|</span> Copyright © 2022<span class="token punctuation">-</span>present</span>
+<span class="token punctuation">---</span></span>
+
+
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>图片的根路径定位在<code>.vuepress/public/</code>目录下，搭配<code>$withBase(url)</code>实现相对路径导入。</p></div> <h2 id="参考文章"><a href="#参考文章" class="header-anchor">#</a> 参考文章</h2> <ol><li><a href="https://blog.csdn.net/zwf193071/article/details/121821209?utm_term=vuepress%20%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F&amp;utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-1-121821209-null-null&amp;spm=3001.4430" target="_blank" rel="noopener noreferrer">vuepress如何自定义首页的样式风格<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://blog.csdn.net/weixin_40532650/article/details/116064378?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-2-116064378-null-null.pc_agg_new_rank&amp;utm_term=vuepress+%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A6%96%E9%A1%B5&amp;spm=1000.2123.3001.4430" target="_blank" rel="noopener noreferrer"> vuepress自定义主题开发-超简单模式<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/js-book/note/typescript巩固.html" class="prev">
+        typescript巩固
+      </a></span> <span class="next"><a href="/js-book/note/图片懒加载.html">
+        图片懒加载
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/js-book/assets/js/app.f1e470e0.js" defer></script><script src="/js-book/assets/js/2.19c529df.js" defer></script><script src="/js-book/assets/js/3.1cd9d216.js" defer></script><script src="/js-book/assets/js/85.ab2a5b03.js" defer></script>
+  </body>
+</html>
